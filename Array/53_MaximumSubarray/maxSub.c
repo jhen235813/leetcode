@@ -1,4 +1,4 @@
-#define MAX(a, b) (((a)>(b))?(a):(b))
+#define MAX(a, b) ((a>b)?a:b)
 
 int maxSubArray(int* nums, int numsSize){
     int i = 0, j = 0;
